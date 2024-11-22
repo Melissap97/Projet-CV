@@ -50,10 +50,27 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
+.containerhero{
+
+flex-wrap: wrap;
+max-width: 100%;
+
+}
+
+.containerall{
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+
+}
+
 .hero{
     background-color: #f4f4f4;
     text-align: center;
     padding: 60px 20px;
+    max-width: 100%;
+    
+    
 }
 
 .hero h2{
@@ -71,33 +88,34 @@ nav ul li a:hover {
     padding: 0px 20px;
     background-color: white;
     max-width: 40%;
-    margin:auto;
     border:solid 1px;
-    display: inline-block;
+    display: flex;
     flex-direction: column;
     padding: 40px 20px;
+    flex-wrap:wrap;
 }
 
 .education {
     padding: 0px 20px;
     background-color: white;
-    max-width: 30%;
-    margin:auto;
+    max-width: 500px;
     border:solid 1px;
-    display: inline-block;
+    display: flex;
     flex-direction: column;
     padding: 40px 20px;
+    flex-wrap: wrap;
 }
 
 .compétences {
     padding: 0px 20px;
     background-color: white;
-    margin:auto;
     border:solid 1px;
-    display: inline-block;
+    display: flex;
     flex-direction: column;
     padding: 40px 20px;
     max-width: 30%;
+    flex-wrap:wrap;
+    max-width: 300px;
 }
 
 
@@ -143,14 +161,6 @@ footer{
     margin-top: 40px;
 }
 
-footer .container{
-    display: flex;
-    justify-content:  space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin:auto;
-    padding: 0 20px;
-}
 
 footer ul {
     list-style: none;
@@ -224,6 +234,13 @@ footer ul li a:hover {
 
 }
 
+.container2 {
+
+    display:flex;
+}
+
 aside{
-    max-width: 10%;
+
+    max-width: 100%;
+    display: flex;
 }
