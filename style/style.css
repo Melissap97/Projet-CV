@@ -67,14 +67,37 @@ nav ul li a:hover {
 
 
 /*Fallait changer le max width !!!!!!!!!!!!!!!!!*/
-.experiences-professionnelles, .education, .compétences {
+.experiences-professionnelles {
     padding: 0px 20px;
     background-color: white;
-    max-width: 500px;
-    margin:0px;
+    max-width: 40%;
+    margin:auto;
     border:solid 1px;
     display: inline-block;
-    
+    flex-direction: column;
+    padding: 40px 20px;
+}
+
+.education {
+    padding: 0px 20px;
+    background-color: white;
+    max-width: 30%;
+    margin:auto;
+    border:solid 1px;
+    display: inline-block;
+    flex-direction: column;
+    padding: 40px 20px;
+}
+
+.compétences {
+    padding: 0px 20px;
+    background-color: white;
+    margin:auto;
+    border:solid 1px;
+    display: inline-block;
+    flex-direction: column;
+    padding: 40px 20px;
+    max-width: 30%;
 }
 
 
@@ -100,7 +123,6 @@ nav ul li a:hover {
     border-radius: 10px;
     padding: 20px;
     text-align: left;
-    transition: transform 0.3s ease;
 }
 
 
@@ -200,4 +222,8 @@ footer ul li a:hover {
         gap: 10px;
     }
 
+}
+
+aside{
+    max-width: 10%;
 }
