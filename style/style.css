@@ -47,7 +47,8 @@ header .container{
     /*classe flexbox, qui contient des blocks et gère leur disposition. Elle contient un titre et un nav*/
     justify-content: space-between;
     align-items: center;
-    padding:0 20px;
+    padding:0 50px;
+    display:flex;
 }
 
 /*header + nav*/
@@ -77,14 +78,6 @@ header h1{
 
 }
 
-.hero{
-    background-color: 
-    text-align: center;
-    padding: 60px 20px;
-    max-width: 100%;
-    
-    
-}
 
 
 /*Fallait changer le max width !!!!!!!!!!!!!!!!!*/
