@@ -13,6 +13,17 @@ header{
 
 }
 
+@font-face {
+    font-family: 'Voltaire-Frangela';
+    src: url(/fonts/Voltaire-Frangela.ttf);
+    font-weight: normal;
+    font-size: normal;
+    
+}
+
+h3 {
+    font-family: 'Voltaire_Frangela';
+}
 h1, h2{
     font-family: 'LUCKY';
     color: black;
@@ -26,16 +37,16 @@ h1{
 
 *{
     box-sizing: content-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
+    
+    
 }
 
 header .container{
     /*classe flexbox, qui contient des blocks et gère leur disposition. Elle contient un titre et un nav*/
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
-    margin:auto;
     padding:0 20px;
 }
 
@@ -57,16 +68,12 @@ header h1{
  
 
 
-.containerhero{
 
-flex-wrap: wrap;
-max-width: 100%;
-
-}
 
 .containerall{
     display:flex;
     max-width: 100%;
+    justify-content: center;
 
 }
 
@@ -259,4 +266,12 @@ footer ul li a:hover {
 body{
     background-image: url(/images/pexels-revac-film-s-photography-10400-325676.jpg);
     background-size: cover;
+}
+
+.avatar {
+    width: 250px;
+    border-radius: 100%;
+    opacity: 0.9;
+    
+    
 }
