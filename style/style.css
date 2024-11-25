@@ -7,7 +7,7 @@ header{
 
 @font-face {
     font-family: 'LUCKY';
-    src: url(./fonts/LUCKY\ TYPEWRITER.ttf);
+    src: url(../fonts/LUCKY\ TYPEWRITER.ttf);
     font-weight: normal;
     font-size: normal;
 
@@ -250,7 +250,7 @@ footer ul li a:hover {
 }
 
 body{
-    background-image: url(./images/pexels-revac-film-s-photography-10400-325676.jpg);
+    background-image: url(../images/pexels-revac-film-s-photography-10400-325676.jpg);
     background-size: cover;
 }
 
