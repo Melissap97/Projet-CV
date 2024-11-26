@@ -1,6 +1,6 @@
 /*En-tête*/
 header{
-    background-color: #181818ad;
+    background-color: #4a6650ad;
     color:#fff;
     padding:20px 0;
 }
@@ -21,6 +21,9 @@ header{
     
 }
 
+p{
+    font-weight: bold;
+}
 h3 {
     font-family: 'Voltaire_Frangela';
 }
@@ -120,21 +123,19 @@ header h1{
     flex-wrap: wrap;
     gap: 20px;
     color: white;
+    max-width: 100%
     
     
 }
 
 .description-experience{
-    background-color: hwb(0 16% 84% / 0.816);
+    background-color: #2f4934de;
     border: 1px solid #ddd;
     border-radius: 10px;
     padding: 20px;
     text-align: left;
 }
 
-.description-experience ul{
-    list-style: none; 
-}
 
 hr { 
     border: none;
@@ -175,20 +176,35 @@ footer ul li a:hover {
         align-items: flex;
     }
 
+
+
+
 .containerall {
     display: inline-block;
     justify-content: center;
       
 }
+.compétences h2 {
 
+    color:white;
+    }
+
+/*FALLAIT CHANGER LE MAX WIDTH!!!!!!!!!!!!!!!!!! */
+.experiences-professionnelles, .education, .compétences{
+    max-width: 100%;
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
 
 
 aside{
     display: flex; 
-    justify-content: center;
-    
+    justify-content: center;    
 }
-  
+
+
 .avatar{
         display: none;
     }
@@ -212,13 +228,18 @@ aside{
         display: none;
     }
 
+    .compétences h2 {
+
+    color:white;
+    }
+
 
 
 }
 
 
 footer{
-    background-color: #181818ad;
+    background-color: #172d17be;
     color:white;
     padding: 20px 0;
     margin-top: 40px;
@@ -250,14 +271,16 @@ footer ul li a:hover {
 }
 
 body{
-    background-image: url(../images/pexels-revac-film-s-photography-10400-325676.jpg);
+    background-image: url(../images/pexels-jplenio-1423600.jpg);
     background-size: cover;
 }
 
 .avatar {
-    width: 250px;
+    width: 150px;
     border-radius: 100%;
     opacity: 0.9;
     
     
 }
+
+
