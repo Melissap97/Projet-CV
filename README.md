@@ -19,7 +19,7 @@ Ce site est un projet de CV. Il comporte du HTML et du CSS. Il est composé d'un
 
 CertaineS informations contenuEs dans le header sont interactifs comme Adresse Mail.  
 Mise en place de chaque contenu dans des <article> pour les mettre en valeur. 
-Chaque article possède dans cet ordre: son titre <h3>, suivis de sa description et des missions attribuées sous forme de liste <ul><li>. 
+Chaque article possède dans cet ordre: son titre h3, suivis de sa description et des missions attribuées sous forme de liste <ul><li>. 
 Footer sous la classe ("container") affichant copyright et différentes informations.
 
  1.3 Dossiers
